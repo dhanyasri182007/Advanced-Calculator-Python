@@ -22,13 +22,13 @@ while True:
   if choice in [1,2,3,4]:
     number1=int(input('Enter the first number: '))
     number2=int(input('Enter the second number: '))
-     if choice==1:
+    if choice==1:
        print('Answer: ',add(number1,number2)) 
-     elif choice==2:
+    elif choice==2:
        print("Answer: ",sub(number1,number2))
-     elif choice==3:
+    elif choice==3:
        print('Answer: ',multiply(number1,number2))
-     elif choice==4:
+    elif choice==4:
        print('Answer: ',division(number1,number2))
-     else:
+    else:
         print('Invalid number!, Try again')
